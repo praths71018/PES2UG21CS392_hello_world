@@ -1,3 +1,4 @@
+# Getting started with GitHub
 ## How to push a repository for 1st time in Github 
 1. prathamshetty@Prathams-MacBook-Air Github Actions A4 % ```git init``` <br><br>
 >hint: Using 'master' as the name for the initial branch. This default branch name  <br>
