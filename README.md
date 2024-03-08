@@ -38,4 +38,27 @@ Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/praths71018/PES2UG21CS392_hello_world.git
  * [new branch]      main -> main <br> <br>
 prathamshetty@Prathams-MacBook-Air Github Actions A4 %
-<br>
+<br><br>
+
+## How to pull changes in Github to local system
+1. prathamshetty@Prathams-MacBook-Air Github Actions A4 % git fetch origin<br><br>
+
+remote: Enumerating objects: 13, done.
+remote: Counting objects: 100% (13/13), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 11 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (11/11), 4.01 KiB | 456.00 KiB/s, done.
+From https://github.com/praths71018/PES2UG21CS392_hello_world
+   06e2001..c36a568  main       -> origin/main
+<br><br>
+
+2. prathamshetty@Prathams-MacBook-Air Github Actions A4 % git merge origin/main <br><br>
+
+Updating 06e2001..c36a568
+Fast-forward
+ .github/workflows/main.yml | 20 ++++++++++++++++++++
+ README.md                  | 41 +++++++++++++++++++++++++++++++++++++++++
+ main.cpp                   |  2 +-
+ 3 files changed, 62 insertions(+), 1 deletion(-)
+ create mode 100644 .github/workflows/main.yml
+ create mode 100644 README.md
