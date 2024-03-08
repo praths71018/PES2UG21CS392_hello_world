@@ -1,4 +1,4 @@
-## How to push a repository in Github 
+## How to push a repository for 1st time in Github 
 1. prathamshetty@Prathams-MacBook-Air Github Actions A4 % ```git init``` <br><br>
 >hint: Using 'master' as the name for the initial branch. This default branch name  <br>
 hint: is subject to change. To configure the initial branch name to use in all <br>
@@ -37,6 +37,11 @@ To https://github.com/praths71018/PES2UG21CS392_hello_world.git<br>
  <blink>*</blink> [new branch]      main -> main <br> <br>
 prathamshetty@Prathams-MacBook-Air Github Actions A4 %
 <br><br>
+
+## How to push changes in local system to github
+1. prathamshetty@Prathams-MacBook-Air Github Actions A4 %  ```git add .``` <br> <br>
+2. prathamshetty@Prathams-MacBook-Air Github Actions A4 %  ```git commit -m "Modified commit"  ```<br><br>
+3. prathamshetty@Prathams-MacBook-Air Github Actions A4 %  ```git push -f origin main ``` <br><br>
 
 ## How to pull changes in Github to local system
 1. prathamshetty@Prathams-MacBook-Air Github Actions A4 %  ```git fetch origin```<br><br>
