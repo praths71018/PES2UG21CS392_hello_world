@@ -41,7 +41,19 @@ prathamshetty@Prathams-MacBook-Air Github Actions A4 %
 ## How to push changes in local system to github
 1. prathamshetty@Prathams-MacBook-Air Github Actions A4 %  ```git add .``` <br> <br>
 2. prathamshetty@Prathams-MacBook-Air Github Actions A4 %  ```git commit -m "Modified commit"  ```<br><br>
+
+>[main 877e5d0] Modified commit<br>
+ 1 file changed, 1 insertion(+), 1 deletion(-)<br><br>
 3. prathamshetty@Prathams-MacBook-Air Github Actions A4 %  ```git push -f origin main ``` <br><br>
+>Enumerating objects: 5, done.<br>
+Counting objects: 100% (5/5), done.<br>
+Delta compression using up to 8 threads<br>
+Compressing objects: 100% (3/3), done.<br>
+Writing objects: 100% (3/3), 285 bytes | 285.00 KiB/s, done.<br>
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0<br>
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.<br>
+To https://github.com/praths71018/PES2UG21CS392_hello_world.git<br>
+   34aa598..877e5d0  main -> main<br><br>
 
 ## How to pull changes in Github to local system
 1. prathamshetty@Prathams-MacBook-Air Github Actions A4 %  ```git fetch origin```<br><br>
