@@ -78,3 +78,43 @@ Fast-forward<br>
  3 files changed, 62 insertions(+), 1 deletion(-)<br>
  create mode 100644 .github/workflows/main.yml<br>
  create mode 100644 README.md<br>
+
+## How to branch Repository
+1. (anaconda3) prathamshetty@Prathams-MacBook-Air Thermafever % ```git branch praths-mods```
+2. (anaconda3) prathamshetty@Prathams-MacBook-Air Thermafever % ```git checkout praths-mods```       
+> A       .DS_Store <br>
+M       src/demo.ipynb <br>
+Already on 'praths-mods' <br>
+
+3. (anaconda3) prathamshetty@Prathams-MacBook-Air Thermafever % ```git branch```
+>  main <br>
+   praths-mods <br>
+
+4. (anaconda3) prathamshetty@Prathams-MacBook-Air Thermafever % ```git status```
+> On branch praths-mods <br>
+Changes to be committed: <br>
+  (use "git restore --staged <file>..." to unstage) <br>
+        new file:   .DS_Store <br>
+        modified:   src/demo.ipynb <br>
+
+5. (anaconda3) prathamshetty@Prathams-MacBook-Air Thermafever % ```git commit -m "Thermal"```                   
+
+>[praths-mods ae60234] Thermal <br>
+ 2 files changed, 546 insertions(+), 53 deletions(-) <br>
+ create mode 100644 .DS_Store <br>
+
+6. (anaconda3) prathamshetty@Prathams-MacBook-Air Thermafever % ```git push -f origin praths-mods```
+> Enumerating objects: 40, done. <br>
+Counting objects: 100% (40/40), done. <br>
+Delta compression using up to 8 threads <br>
+Compressing objects: 100% (38/38), done. <br>
+Writing objects: 100% (40/40), 2.33 MiB | 3.29 MiB/s, done. <br>
+Total 40 (delta 6), reused 0 (delta 0), pack-reused 0 <br>
+remote: Resolving deltas: 100% (6/6), done. <br>
+remote:  <br>
+remote: Create a pull request for 'praths-mods' on GitHub by visiting: <br>
+remote:      https://github.com/JiteshNayak2004/Thermafever/pull/new/praths-mods <br>
+remote:  <br>
+To https://github.com/JiteshNayak2004/Thermafever <br>
+  [new branch]      praths-mods -> praths-mods <br>
+(anaconda3) prathamshetty@Prathams-MacBook-Air Thermafever %  <br>
